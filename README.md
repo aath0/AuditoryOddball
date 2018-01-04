@@ -6,7 +6,7 @@ This script runs a basic auditory oddball experiment in Python, using [Pygame](h
 
 * *AuditoryOddball_Generic.py*: the main experiment script.
 * *MakeSounds_Oddball.py*: script that prepares the auditory stimuli.
-* *AuditoryOddball_QualityCheck.py*: a [Jupyter notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) for a quality check, after running the experiment.
+* *AuditoryOddball_QualityCheck.ipynb*: a [Jupyter notebook](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) for a quality check, after running the experiment.
 
 ## AuditoryOddball_Generic.py
 
@@ -19,7 +19,7 @@ A series of parameters can be modified:
 * frequency2: main frequency of the second auditory stimulus
 * ratio_deviant: ration of deviant sounds in each block
 
-## AuditoryOddball_QualityCheck.py
+## AuditoryOddball_QualityCheck.ipynb
 
 This notebook allows you to do some quality checks after running the experiment. 
 * Cell 1: Information about the auditory stimuli of each block (frequency of deviant stimuli and their order). Because this is a roving paradigm, the deviant frequency changes in each block.
